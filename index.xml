@@ -6,9 +6,19 @@
     <description>Recent content on Kyle Kumbier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://discmagnet.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Lost Season: Introduction</title>
+      <link>https://discmagnet.github.io/blog/the-lost-season-introduction/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://discmagnet.github.io/blog/the-lost-season-introduction/</guid>
+      <description>Here we go!</description>
+    </item>
     
   </channel>
 </rss>
