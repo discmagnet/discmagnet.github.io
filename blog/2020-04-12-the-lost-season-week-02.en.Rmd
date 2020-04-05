@@ -1,0 +1,103 @@
+---
+title: 'The Lost Season: Week 02'
+author: Kyle Kumbier
+date: '2020-04-12'
+slug: the-lost-season-week-02
+categories:
+  - Fantasy Baseball
+tags: []
+description: ''
+images:
+  - ''
+type: post
+---
+
+In an alternate reality, baseball is finally back!
+
+# Around The League
+
+### Top Stories
+
+**Clayton Kershaw throws no-hitter against San Francisco Giants on 3/27**
+
+**George Springer signs 5-year $137 million extension with Houston Astros**
+
+**Ryan Braun hits 3 HR in Brewers 8-5 victory over Phillies on 4/4**
+
+**Rockies' German Marquez out for season with serious elbow injury in Opening Day start**
+
+### Standings
+
+![](/img/2020/04/NLstandingsWk1.JPG)
+
+![](/img/2020/04/ALstandingsWk1.JPG)
+
+# Fantasy Team News
+
+### Skaggs to Riches
+
+### Chicken Benintendies
+
+### Bauer Hour
+
+### Ore-Ida Tater Tatis Tots
+
+### Turner Down For What
+
+### Snells Bells
+
+### The Scherzy Shore
+
+### Acuna Matata
+
+### Dying Quails
+
+### The Big Tuna
+
+# Fantasy Scoreboard
+
+# Fantasy Standings
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(htmlwidgets)
+library(widgetframe) 
+library(DT)
+
+standings <- data.frame(W=c(1,0,0,1,0,1,1,1,0,0), L=c(0,1,1,0,1,0,0,0,1,1), `T`=c(0,0,0,0,0,0,0,0,0,0), PF=c(496.5,572,487.5,593,499,545,504,490.5,449.5,464.5))
+rownames(standings) <- c("Skaggs to Riches","Chicken Benintendies","Bauer Hour","Ore-Ida Tater Tatis Tots","Turner Down For What","Snells Bells","The Scherzy Shore","Acuna Matata","Dying Quails","The Big Tuna")
+frameWidget(datatable(standings,
+                      options = list(dom = 't',
+                                     order = list(list(1,'desc'),list(4,'desc')))))
+```
+
+**1. Don Bachaus (1-0-0) 1.000**
+
+Expected Win Percentage (xWP): (7-0-0) 1.000
+
+Total Points For (PF): 593
+
+Total Points Against (PA): 572
+
+**2. Ed Kumbier (1-0-0) 1.000**
+
+xWP: (6-1-0) 0.857
+
+PF: 545
+
+PA: 487.5
+
+**3. Matt Geleske (1-0-0) 1.000**
+
+**4. Kyler Bachaus (1-0-0) 1.000**
+
+**5. Andy Geleske (1-0-0) 1.000**
+
+**6. Kyle Kumbier (0-1-0) 0.000**
+
+**7. Taylor Bachaus (0-1-0) 0.000**
+
+**8. Reid Trier (0-1-0) 0.000**
+
+**9. Jonah Laursen (0-1-0) 0.000**
+
+**10. Al Laursen (0-1-0) 0.000**

@@ -1,0 +1,549 @@
+---
+title: 'The Lost Season: Week 01'
+author: Kyle Kumbier
+date: '2020-04-05'
+slug: the-lost-season-week-01
+categories:
+  - Fantasy Baseball
+tags: []
+description: ''
+images:
+  - 'img/2020/04/OpeningDay.jpg'
+type: post
+---
+
+In an alternate reality, baseball is finally back!
+
+# Around The League
+
+### Top Stories
+
+**Clayton Kershaw throws no-hitter against San Francisco Giants on 3/27**
+
+**George Springer signs 5-year $137 million extension with Houston Astros**
+
+**Ryan Braun hits 3 HR in Brewers 8-5 victory over Phillies on 4/4**
+
+**Rockies' German Marquez out for season with serious elbow injury in Opening Day start**
+
+### Standings
+
+![](/img/2020/04/NLstandingsWk1.JPG)
+
+![](/img/2020/04/ALstandingsWk1.JPG)
+
+# Fantasy Team News
+
+### Skaggs to Riches (Kyler)
+
+**Acquisitions**
+
+*SS Jean Segura, OF Joc Pederson*
+
+At the beginning of the week, Kyler was in need of an outfielder and a utility player. Although it was reported that Luis Robert would start the season with the White Sox, he began the OOTP season in AAA. Also, Trey Mancini began the season on the IL having undergone successful surgery to remove a malignant tumor from his colon. The best position player and best outfielder (not already hurt in OOTP) to pick up in free agency were Jean Segura and Joc Pederson.
+
+**Top Performers**
+
+Kyler's first week is headlined by his 1st and 2nd draft picks in Ronald Acuna Jr. and Freddie Freeman. These two Braves sluggers are one of the scariest 3-4 duos in baseball to start the year. Acuna Jr. led Skaggs to Riches with 65 pts after hitting .368 with 5 HR and 12 RBIs in the first week-and-a-half of games. Freeman was not far behind, hitting .357 with 3 HR and 8 RBIs (59 pts). Kyler's pitching was led by Lance McCullers Jr. who started the season 2-0 with a 0.57 ERA and 16 K (61 pts).
+
+**Injury Report**
+
+The injury bug strikes again. It wouldn't be fantasy baseball without Kyler suffering a season-ending injury to one of his pitchers in the first week. Actually, it was on Opening Day. Into his 4th inning of work, not having allowed a run yet, German Marquez suffered an elbow injury that ended his day... and his season. On one hand, you could say that Kyler is lucky that Justin Verlander's lat strain didn't make it into the OOTP sim, but his unluckiness continued as Verlander suffered some back tightness in his second start and is now considered DTD (not placed on IL). Note that Snell is still on the IL with elbow discomfort.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(htmlwidgets)
+library(widgetframe) 
+library(DT)
+
+KB.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/KB.pos.Rds")
+frameWidget(datatable(KB.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+KB.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/KB.pit.Rds")
+frameWidget(datatable(KB.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+## Chicken Benintendies (Kyle)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+Walker Buehler has been a beast! 2-0 with a 0.54 ERA and 23 K in his first 2 starts (72 pts). Other notable performers include Xander Bogaerts who is hitting .366 with 3 HR and 12 RBI (68.5 pts), and MY MAN DANIEL MURPHY!!! He's hitting .341 with 2 HR and leading the Rockies with 10 RBI (57 pts). 9 of the 10 position players scored at least 30 pts, showcasing Chicken Benintendies depth offensively.
+
+**Injury Report**
+
+Jacob deGrom is considered DTD with wrist tendinitis and has been placed on the IL. He is scheduled to come off the IL a few days before the matchup is over. Xander Bogaerts is playing through a sprained finger, but not expected to miss any time.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+KK.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/KK.pos.Rds")
+frameWidget(datatable(KK.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+KK.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/KK.pit.Rds")
+frameWidget(datatable(KK.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### Bauer Hour (Reid)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+Josh Bell led the way with 55 points after starting the year with 3 HR and 9 RBI. Reid's top pitcher this week was Eduardo Rodriguez who has started 1-1 with a 1.23 ERA and 10 K (40 pts). This doesn't sound too impressive, but the depth at pitching is ridiculous! Every pitcher has scored AT LEAST 20 pts. Don't be surprised if this team goes off in the near future as Mookie Betts and Anthony Rendon have yet to shine, scoring a modest 36 and 32.5 pts, respectively.
+
+**Injury Report**
+
+Trevor Bauer was put on the IL after suffering an oblique strain in his start on 4/2. Expected to come off the IL in time to make one more start in this matchup.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+RT.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/RT.pos.Rds")
+frameWidget(datatable(RT.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+RT.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/RT.pit.Rds")
+frameWidget(datatable(RT.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### Ore-Ida Tater Tatis Tots (Don)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+The real question is "Who wasn't a top performer?" because this team CRUSHED! Four players scored over 60 pts this week: (1) Matt Olson (seriously, WTF) is hitting .282 with 5 HR and leading the MLB with 23 ****ING RBIs!!! Come on, the next closest is 13! All of this translates to 85 pts! (2) Christian Yelich is hitting .457 with 4 HR and 12 RBI. Take away the 12 double plays turned for Olson and you're looking at the team's new leading scorer with 73.5 pts! (3) Jose Ramirez is hitting .297 with 3 HR and 13 RBI (72.5 pts). (4) Andrew Benintendi is hitting .395 with 3 HR and 10 RBI (67.5 pts). Don's top pitcher was Masahiro Tanaka, who is 1-1 with a 2.25 ERA and 13 K (40 pts). The really scary thing about this top-scoring team is Craig Kimbrel blew up for -18 pts. Just wow, what a week.
+
+**Injury Report**
+
+You lucky son of a gun. Nobody.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+DB.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/DB.pos.Rds")
+frameWidget(datatable(DB.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+DB.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/DB.pit.Rds")
+frameWidget(datatable(DB.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### Turner Down For What (Taylor)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+A very strong week for hitting. The pitching has room for improvement. The two top hitters were Yordan Alvarez (64 pts) and Pete Alonso (58 pts). Alvarez is hitting .412 with 3 HR and 10 RBI, and Alonso is hitting .333 with 4 HR and 10 RBI. Taylor already has one of the strongest offensive teams in our league, and that's only with Mike Trout hitting .242 after the first week. Aaron Nola led the way for pitchers going 1-0 with a 2.19 ERA and 17 K (34 pts).
+
+**Injury Report**
+
+James Paxton is has been on the IL due to a microscopic lumbar discectomy and is expected to be out for another 6 weeks. Jon Gray was used from the bench to replace Paxton in the rotation.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+TB.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/TB.pos.Rds")
+frameWidget(datatable(TB.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+TB.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/TB.pit.Rds")
+frameWidget(datatable(TB.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### Snells Bells (Ed)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+Ed's focus on pitching early in the draft has paid off big time! His rotation and bullpen are arguably the best in the league. Throw in the fact that Clayton Kershaw threw a no-hitter, and you're looking at one of the top scoring teams just due to pitching. The 25 additional points for the no-hitter were not included in the table, so Clayton Kershaw is starting the year 2-0 with a 1.80 ERA and 17 K for 89 pts. Lucas Giolito also had a solid week going 1-0 with a 1.35 ERA and 23 K (58 pts). His top hitter was Edwin Encarnacion who is hitting .313 with 6 HR (most in MLB) and 13 RBI (75 pts).
+
+**Injury Report**
+
+Stephen Strasburg was placed on the IL after suffering an oblique strain during his first start of the year. He is expected to be back as soon as he is eligible, which should be in time to make at least one start before the matchup is over. On April 1st, Michael Conforto suffered a strained posterior cruciate ligament. At the time of me writing this, I have no idea what type of injury this is. All I know is this means Conforto will be out for 4 to 5 weeks and has been placed on the IL. 
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+EK.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/EK.pos.Rds")
+frameWidget(datatable(EK.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+EK.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/EK.pit.Rds")
+frameWidget(datatable(EK.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### The Scherzy Shore (Matt)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+The defending Inglourious Batters Champion has a team that everyone needs to watch out for. The Scherzy Shore is incredibly balanced between hitting and pitching, and we see this firsthand in the first week. Matt has a league leading 7 players who scored at least 40 pts this week. Three were hitters: Max Muncy, Marcell Ozuna, and Nolan Arenado. Four were pitchers: Max Scherzer, Jack Flaherty, Zac Gallen, and Zack Wheeler. Ignoring double plays turned, Ozuna led the hitters with a .324 BA and 2 HR and 8 RBI (49 pts). Scherzer led the pitchers going 1-1 with a 1.26 ERA and 19 K (47 pts).
+
+**Injury Report**
+
+Healthy so far.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+MG.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/MG.pos.Rds")
+frameWidget(datatable(MG.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+MG.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/MG.pit.Rds")
+frameWidget(datatable(MG.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### Acuna Matata (Andy)
+
+**Acquisitions**
+
+SP Caleb Smith
+
+With Chris Sale out for the season due to Tommy John surgery, Andy needed another starting pitcher to fill his rotation. Noah Syndergaard is also lost for the season in real life, but the simulation started before this happended. As far as OOTP is concerned, Thor is healthy!
+
+**Top Performers**
+
+You're looking at one of the most powerful teams in the league! Andy's team will probably hit the most homeruns this year, just by looking at the names and the league leading 24 HR his team hit this first week. Four players scored over 50 pts this week: Miguel Sano (68.5 pts), Eloy Jimenez (55.5 pts), Francisco Lindor (53.5 pts), and J.D. Martinez (50 pts). Sano led the way hitting .325 with 5 HR and 9 RBI. Hopefully this offense can carry the team, because the pitching has lacked the same type of punch so far. New pickup Caleb Smith leads the rotation going 1-0 with a 0.93 ERA and 15 K (28 pts).
+
+**Injury Report**
+
+Eloy Jimenez is playing through a sprained ankle and is considered DTD. The injury does not appear to affect his hitting, just his throwing and running ability.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+AG.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/AG.pos.Rds")
+frameWidget(datatable(AG.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+AG.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/AG.pit.Rds")
+frameWidget(datatable(AG.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### Dying Quails (Al)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+Dying Quails was led offensively by 1st round pick Cody Bellinger. He has started the year hitting .257 with 3 HR and 6 RBI (47.5 pts). Pitching was led by Charlie Morton, who has yet to record a win, but has a 0.69 ERA with 14 K in two starts (45 pts). The first week hasn't started out the way Al would have hoped, but it's WAY too early to draw any conclusions about the team.
+
+**Injury Report**
+
+Matt Chapman suffered a hamstring strain on 3/27 and is expected to need two weeks to recover. He was placed on the IL.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+AL.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/AL.pos.Rds")
+frameWidget(datatable(AL.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+AL.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/AL.pit.Rds")
+frameWidget(datatable(AL.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+### The Big Tuna (Jonah)
+
+**Acquisitions**
+
+*None*
+
+**Top Performers**
+
+The Big Tuna receives some star performances from Juan Soto and Shane Bieber in the first week of baseball. Juan Soto begins the year hitting .394 with 2 HR and 4 RBI (53 pts) and Shane Bieber starts the year off going 1-0 with a 0.60 ERA and 13 K (51 pts). There really aren't any other notable performances to bring up, unfortunately. One of the best things about this team is no one is sucking. The worst batter and worst pitcher are combining for 24 pts, making it the highest floor in the league. No one is costing The Big Tuna points, and that's keeping this team in the hunt with two weeks to go. The Big Tuna is waiting to pounce!
+
+**Injury Report**
+
+Carlos Carrasco and Mike Clevinger both start the year out on the IL, so Dallas Keuchel and Jose Quintana get promoted from the bench to the rotation. Eddie Rosario leaves today's game (4/5) with an unknown injury.
+
+#### Batter Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+JL.pos <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/JL.pos.Rds")
+frameWidget(datatable(JL.pos,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(18,'desc')))))
+```
+
+#### Pitcher Summary
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+JL.pit <- readRDS("~/WORKING_DIRECTORIES/fantasy.baseball/player.tables/week01/JL.pit.Rds")
+frameWidget(datatable(JL.pit,
+                      extensions = c('Scroller','FixedColumns'),
+                      options = list(dom = 't',
+                                     deferRender = T,
+                                     scrollX = T,
+                                     scroller = T,
+                                     fixedColumns = list(rightColumns=1),
+                                     order = list(list(15,'desc')))))
+```
+
+# Fantasy Scoreboard
+
+#### **Don** (0-0) leading **Kyle** (0-0) 593-572
+
+#### **Ed** (0-0) leading **Reid** (0-0) 545-487.5
+
+#### **Matt** (0-0) leading **Taylor** (0-0) 504-499
+
+#### **Kyler** (0-0) leading **Jonah** (0-0) 496.5-495
+
+#### **Andy** (0-0) leading **Al** (0-0) 490.5-449.5
+
+# Fantasy Standings
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+KB.W <- 0
+KB.L <- 0
+KB.T <- 0
+KB.PF <- 496.5
+KB.PA <- 495
+
+KK.W <- 0
+KK.L <- 0
+KK.T <- 0
+KK.PF <- 572
+KK.PA <- 593
+
+RT.W <- 0
+RT.L <- 0
+RT.T <- 0
+RT.PF <- 487.5
+RT.PA <- 545
+
+DB.W <- 0
+DB.L <- 0
+DB.T <- 0
+DB.PF <- 593
+DB.PA <- 572
+
+TB.W <- 0
+TB.L <- 0
+TB.T <- 0
+TB.PF <- 499
+TB.PA <- 504
+
+EK.W <- 0
+EK.L <- 0
+EK.T <- 0
+EK.PF <- 545
+EK.PA <- 487.5
+
+MG.W <- 0
+MG.L <- 0
+MG.T <- 0
+MG.PF <- 504
+MG.PA <- 499
+
+AG.W <- 0
+AG.L <- 0
+AG.T <- 0
+AG.PF <- 490.5
+AG.PA <- 449.5
+
+AL.W <- 0
+AL.L <- 0
+AL.T <- 0
+AL.PF <- 449.5
+AL.PA <- 490.5
+
+JL.W <- 0
+JL.L <- 0
+JL.T <- 0
+JL.PF <- 495
+JL.PA <- 496.5
+
+standings <- data.frame(W=c(KB.W,KK.W,RT.W,DB.W,TB.W,EK.W,MG.W,AG.W,AL.W,JL.W),
+                        L=c(KB.L,KK.L,RT.L,DB.L,TB.L,EK.L,MG.L,AG.L,AL.L,JL.L),
+                        `T`=c(KB.T,KK.T,RT.T,DB.T,TB.T,EK.T,MG.T,AG.T,AL.T,JL.T), 
+                        PF=c(KB.PF,KK.PF,RT.PF,DB.PF,TB.PF,EK.PF,MG.PF,AG.PF,AL.PF,JL.PF),
+                        PA=c(KB.PA,KK.PA,RT.PA,DB.PA,TB.PA,EK.PA,MG.PA,AG.PA,AL.PA,JL.PA))
+rownames(standings) <- c("Skaggs to Riches","Chicken Benintendies","Bauer Hour","Ore-Ida Tater Tatis Tots","Turner Down For What","Snells Bells","The Scherzy Shore","Acuna Matata","Dying Quails","The Big Tuna")
+frameWidget(datatable(standings,
+                      options = list(dom = 't',
+                                     order = list(list(1,'desc'),list(4,'desc')))))
+```
