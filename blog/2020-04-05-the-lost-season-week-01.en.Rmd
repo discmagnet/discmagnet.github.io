@@ -228,7 +228,7 @@ A very strong week for hitting. The pitching has room for improvement. The two t
 
 **Injury Report**
 
-James Paxton is has been on the IL due to a microscopic lumbar discectomy and is expected to be out for another 6 weeks. Jon Gray was used from the bench to replace Paxton in the rotation.
+James Paxton has been on the IL due to a microscopic lumbar discectomy and is expected to be out for another 6 weeks. Jon Gray was used from the bench to replace Paxton in the rotation.
 
 #### Batter Summary
 
@@ -352,7 +352,7 @@ frameWidget(datatable(MG.pit,
 
 **Acquisitions**
 
-SP Caleb Smith
+*SP Caleb Smith*
 
 With Chris Sale out for the season due to Tommy John surgery, Andy needed another starting pitcher to fill his rotation. Noah Syndergaard is also lost for the season in real life, but the simulation started before this happended. As far as OOTP is concerned, Thor is healthy!
 

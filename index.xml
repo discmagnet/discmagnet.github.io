@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kyle Kumbier</title>
-    <link>/</link>
+    <link>https://discmagnet.github.io/</link>
     <description>Recent content on Kyle Kumbier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://discmagnet.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The Lost Season: Week 02</title>
+      <link>https://discmagnet.github.io/blog/the-lost-season-week-02/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://discmagnet.github.io/blog/the-lost-season-week-02/</guid>
+      <description>In an alternate reality, we’ve still got bench-clearing brawls!
+Around The LeagueTop StoriesLeague suspends Dexter Fowler (5 games) and Blake Trienen (3 games) for involvement in Cards-Angels brawl
+League suspends Carl Edwards Jr. (6 games) and Cesar Puello (3 games) for fight in Red Sox-Mariners game
+Justin Upton hits 300th career home run in 4-2 win against Tigers on 4/11
+Gerrit Cole dominates Athletics in today’s 8-1 New York victory, strikes out 15 over 7 innings</description>
+    </item>
+    
+    <item>
       <title>The Lost Season: Week 01</title>
-      <link>/blog/the-lost-season-week-01/</link>
+      <link>https://discmagnet.github.io/blog/the-lost-season-week-01/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/the-lost-season-week-01/</guid>
+      <guid>https://discmagnet.github.io/blog/the-lost-season-week-01/</guid>
       <description>In an alternate reality, baseball is finally back!
 Around The LeagueTop StoriesClayton Kershaw throws no-hitter against San Francisco Giants on 3/27
 George Springer signs 5-year $137 million extension with Houston Astros
@@ -27,10 +40,10 @@ Rockies’ German Marquez out for season with serious elbow injury in Opening Da
     
     <item>
       <title>The Lost Season: Introduction</title>
-      <link>/blog/the-lost-season-introduction/</link>
+      <link>https://discmagnet.github.io/blog/the-lost-season-introduction/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/the-lost-season-introduction/</guid>
+      <guid>https://discmagnet.github.io/blog/the-lost-season-introduction/</guid>
       <description>There&amp;rsquo;s no crying in baseball!
 If you&amp;rsquo;re like me, you&amp;rsquo;re incredibly sad that baseball has been halted. And not just baseball, FANTASY BASEBALL. We wait months for the draft! We finally build our teams! And now we wait&amp;hellip; indefinitely. Who knows, the 2020 season may never come. That idea of not having something to root for is scary.
 Not on my watch.
@@ -39,10 +52,10 @@ Fortunately for all of us, the newest version of Out of the Park Baseball (OOTP)
     
     <item>
       <title>The Enhanced Quality Start: A 2018 Recap</title>
-      <link>/blog/the-enhanced-quality-start-a-2018-recap/</link>
+      <link>https://discmagnet.github.io/blog/the-enhanced-quality-start-a-2018-recap/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/the-enhanced-quality-start-a-2018-recap/</guid>
+      <guid>https://discmagnet.github.io/blog/the-enhanced-quality-start-a-2018-recap/</guid>
       <description>This article was previously published on the M-SABR website.
 First Pitch Back in July 2018, I wrote an article which introduced three new statistics that I developed to better evaluate starting pitching performance. All the important details can be found in the article (link), but here’s a quick summary of what all happened.
 The Enhanced Quality Start (eQS)
@@ -51,10 +64,10 @@ The statistic that started this all. Unlike the old Quality Start where a pitche
     
     <item>
       <title>Enhancing The Quality Start</title>
-      <link>/blog/enhancing-the-quality-start/</link>
+      <link>https://discmagnet.github.io/blog/enhancing-the-quality-start/</link>
       <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/enhancing-the-quality-start/</guid>
+      <guid>https://discmagnet.github.io/blog/enhancing-the-quality-start/</guid>
       <description>This article was previously published on the M-SABR website.
 First Pitch I&amp;rsquo;d like to start off by asking a trivia question:
 Who pitched better in 2015? Shelby Miller or Drew Hutchison?
