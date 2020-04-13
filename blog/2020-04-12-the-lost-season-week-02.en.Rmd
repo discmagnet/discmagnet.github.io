@@ -82,7 +82,7 @@ frameWidget(datatable(KB.pit,
 
 **Top Performers**
 
-Xander Bogaerts (96 pts) and Walker Buehler (82 pts) are still the top position player and pitcher for Kyle. Even as he battles through a sprained finger, Bogaerts is still slashing .319/.359/.625 with 5 HR and 17 RBI. And even after a rough start against Washington, where he allowed 5 ER in 2.2 innings, he is still the NL Strikeout Leader (36) with a solid 2.45 ERA. Madison Bumgarner threw a complete game shutout against the Giants this week, and MY MAN DANIEL MURPHY is still doing his thing, hitting .345 with 14 RBI!
+Xander Bogaerts (96 pts) and Walker Buehler (82 pts) are still the top position player and pitcher for Kyle. Even as he battles through a sprained finger, Bogaerts is still slashing .319/.359/.625 with 5 HR and 17 RBI. And even after a rough start against Washington, where Buehler allowed 5 ER in 2.2 innings, he is still the NL Strikeout Leader (36) with a solid 2.45 ERA. Madison Bumgarner threw a complete game shutout against the Giants this week, and MY MAN DANIEL MURPHY is still doing his thing, hitting .345 with 14 RBI!
 
 **Injury Report**
 
@@ -122,7 +122,7 @@ frameWidget(datatable(KK.pit,
 
 **Top Performers**
 
-Trea Turner (96 pts) has a fantastic week and becomes Reid's new top scorer. He is now slashing .344/.420/.590 with 3 HR, 9 RBI, and 3 SB. Eduardo Rodriguez is still his top pitcher, as he is now 2-2 with a 2.67 ERA and 19 K. Mookie Betts and Anthony Rendon are still just hitting .242 and .262, respectively.
+Trea Turner (96 pts) had a fantastic week and becomes Reid's new top scorer. He is now slashing .344/.420/.590 with 3 HR, 9 RBI, and 3 SB. Eduardo Rodriguez is still his top pitcher, as he is now 2-2 with a 2.67 ERA and 19 K. Mookie Betts and Anthony Rendon are still just hitting .242 and .262, respectively.
 
 **Injury Report**
 
@@ -402,7 +402,7 @@ frameWidget(datatable(AL.pit,
 
 **Top Performers**
 
-In addition to strong depth from hitting and pitching, Jonah has two studs leading the way in Juan Soto (110 pts) and Shane Bieber (93 pts). Soto is slashing a tremendous .386/.485/.754 with 4 HR and 16 RBI, and Bieber is 2-1 with a sparkling 0.96 ERA with 28 K. Another notable hitter is Trevor Story (76 pts) who is hitting .313 with 10 RBI with the Rockies. Kirby Yates (55 pts) has started the year with 3 saves, a 1.50 ERA, and an 11:1 K:BB.
+In addition to strong depth from hitting and pitching, Jonah has two studs leading the way in Juan Soto (110 pts) and Shane Bieber (93 pts). Soto is slashing a tremendous .386/.485/.754 with 4 HR and 16 RBI, and Bieber is 2-1 with a sparkling 0.96 ERA with 28 K. Kirby Yates (55 pts) has started the year strong with 3 saves, a 1.50 ERA, and an 11:1 K:BB.
 
 **Injury Report**
 
